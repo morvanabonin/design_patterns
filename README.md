@@ -30,3 +30,12 @@ Design Patterns provide paths to solutions for some of the most common object-or
 |						               | The Factory Pattern   |
 
 ### The Strategy Pattern
+
+> **Program to an interface, NOT an Implementation**  
+> Clients remain unaware of the specific types of objects they use, as long as the objects adhere to the interface that clients expect.
+
+![alt text](https://github.com/morvanabonin/design_patterns/img/strategy_pattern.png "Strategy Pattern")
+
+> **The Strategy Pattern**  
+> This Pattern defines a family of algorithms, encapsulate each one, and makes them interchangeable.
+> This lets the algorithm vary independently from clients that use it.
