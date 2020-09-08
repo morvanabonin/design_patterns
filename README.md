@@ -41,3 +41,8 @@ Design Patterns provide paths to solutions for some of the most common object-or
 > **The Strategy Pattern**  
 > This Pattern defines a family of algorithms, encapsulate each one, and makes them interchangeable.
 > This lets the algorithm vary independently from clients that use it.
+
+###### HAS-A Is Better Than IS-A
+
+ * We're using a HAS-A relationship
+   *  Each duck has a FlyBehavior and a QuackBehavior
