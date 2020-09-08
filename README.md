@@ -1,6 +1,7 @@
-## Programming Foundations: Design Patterns
+# Programming Foundations: Design Patterns
 
 Fundamentals properties of Obeject-Oriented Design
+
 * Inherintece
 * Polymorphism
 * Abstraction
@@ -8,7 +9,7 @@ Fundamentals properties of Obeject-Oriented Design
 
 Design Patterns provide paths to solutions for some of the most common object-oriented design conundrums.
 
-### Benefits
+## Benefits
 
 * Not reivent the wheel
 * Building resilient code
@@ -42,7 +43,13 @@ Design Patterns provide paths to solutions for some of the most common object-or
 > This Pattern defines a family of algorithms, encapsulate each one, and makes them interchangeable.
 > This lets the algorithm vary independently from clients that use it.
 
-###### HAS-A Is Better Than IS-A
+#### HAS-A Is Better Than IS-A
 
- * We're using a HAS-A relationship
-   *  Each duck has a FlyBehavior and a QuackBehavior
+* We're using a HAS-A relationship
+  * Each duck has a FlyBehavior and a QuackBehavior
+
+* Instead of inheriting behavior, we're composing it
+  * A duck is composed with a fly behavior and a quack behavior
+
+> **Favor Composition over Inheritance**  
+> Classes should achieve code reuse using composition rather than inheritance from a superclass.
