@@ -11,13 +11,13 @@ namespace Strategy\Design\Pattern\Behavior\Quack;
 
 use Strategy\Design\Pattern\Behavior\Quack\QuackBehavior;
 
-// Quack Behavior implementation (regular flying)
+// Quack Behavior implementation
 class Quack implements QuackBehavior
 {
     /**
-     * Implements overriding method of interface QuackBehavior
+     * Implements override method of interface QuackBehavior
      */
-    public function quack() {
+    public function quack(): void {
         print("Quack");
     }
 }

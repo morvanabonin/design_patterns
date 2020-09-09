@@ -11,13 +11,13 @@ namespace Strategy\Design\Pattern\Behavior\Fly;
 
 use Strategy\Design\Pattern\Behavior\Fly\FlyBehavior;
 
-// Fly Behavior implementation (regular flying)
+// Fly Behavior implementation
 class FlyNoWay implements FlyBehavior
 {
     /**
-     * Implements overriding method of interface FlyBehavior
+     * Implements override method of interface FlyBehavior
      */
-    public function fly() {
+    public function fly(): void {
         print("I'm not flying!!");
     }
 }

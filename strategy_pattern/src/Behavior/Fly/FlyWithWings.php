@@ -15,9 +15,9 @@ use Strategy\Design\Pattern\Behavior\Fly\FlyBehavior;
 class FlyWithWings implements FlyBehavior
 {
     /**
-     * Implements overriding method of interface FlyBehavior
+     * Implements override method of interface FlyBehavior
      */
-    public function fly() {
+    public function fly(): void {
         print("I'm flying!!");
     }
 }
