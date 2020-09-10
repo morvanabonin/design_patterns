@@ -53,3 +53,5 @@ Design Patterns provide paths to solutions for some of the most common object-or
 
 > **Favor Composition over Inheritance**  
 > Classes should achieve code reuse using composition rather than inheritance from a superclass.
+
+### The Adapter Pattern
