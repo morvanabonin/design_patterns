@@ -56,7 +56,7 @@ Design Patterns provide paths to solutions for some of the most common object-or
 
 ### The Adapter Pattern
 
-[<img src="https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern.png" height="254" width="907"/>](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern.png)
+[<img src="https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern.png" height="250" width="600"/>](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern.png)
 
 The Adapter class handles the work of translating the request to the new Vendor class.
 
