@@ -55,3 +55,14 @@ Design Patterns provide paths to solutions for some of the most common object-or
 > Classes should achieve code reuse using composition rather than inheritance from a superclass.
 
 ### The Adapter Pattern
+
+![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern.png "Adapter Pattern Example")
+
+The Adapter class handles the work of translating the request to the new Vendor class.
+
+> **The Adapter Pattern**  
+> This Pattern converts the interface of a class into another interface that clients expect.
+> It allows classes to work together that couldn't otherwise because of incompatible interfaces. 
+
+![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern2.png "Adapter Pattern"
+
