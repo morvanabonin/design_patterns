@@ -56,7 +56,7 @@ Design Patterns provide paths to solutions for some of the most common object-or
 
 ### The Adapter Pattern
 
-![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern.png "Adapter Pattern Example")
+![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern.png=907x254 "Adapter Pattern Example")
 
 The Adapter class handles the work of translating the request to the new Vendor class.
 
@@ -64,5 +64,5 @@ The Adapter class handles the work of translating the request to the new Vendor 
 > This Pattern converts the interface of a class into another interface that clients expect.
 > It allows classes to work together that couldn't otherwise because of incompatible interfaces. 
 
-![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern2.png "Adapter Pattern"
+![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern2.png "Adapter Pattern")
 
