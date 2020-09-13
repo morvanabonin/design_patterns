@@ -5,7 +5,7 @@ public class DuckSimulator {
     {
         //Test a duck
         Duck duck = new MallardDuck();
-        testDuck();
+        testDuck(duck);
     }
 
     static void testDuck(Duck duck) {
@@ -13,3 +13,4 @@ public class DuckSimulator {
         duck.fly();
     }
 }
+
