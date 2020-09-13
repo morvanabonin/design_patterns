@@ -66,3 +66,9 @@ The Adapter class handles the work of translating the request to the new Vendor 
 
 ![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/adapter_pattern2.png "Adapter Pattern")
 
+> **Adapters Use Composition**  
+> 
+> * The client is composed with the class with the target interface
+> * The adapter is composed with the adaptee
+> * The adapter delegates calls to the adaptee, and returns any needed value
+
