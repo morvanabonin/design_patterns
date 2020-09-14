@@ -72,3 +72,11 @@ The Adapter class handles the work of translating the request to the new Vendor 
 > * The adapter is composed with the adaptee
 > * The adapter delegates calls to the adaptee, and returns any needed value
 
+### The Observe Pattern
+
+> **Loose Coupling**  
+> Strive for loosely coupled designs between objects that interact.
+
+> **The Observer Pattern**  
+> This Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its
+> dependents are notified and updated automatically.
