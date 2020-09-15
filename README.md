@@ -81,7 +81,7 @@ The Adapter class handles the work of translating the request to the new Vendor 
 > This Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its
 > dependents are notified and updated automatically.
 
-![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/observe_pattern2.png "Observe Pattern")
+![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/observe_pattern.png "Observe Pattern")
 
 
 #### Links for Study
