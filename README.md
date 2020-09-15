@@ -80,3 +80,8 @@ The Adapter class handles the work of translating the request to the new Vendor 
 > **The Observer Pattern**  
 > This Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its
 > dependents are notified and updated automatically.
+
+
+#### Links for Study
+
+*  [Refactoring °Guruº - Design Patterns](https://refactoring.guru/design-patterns)
