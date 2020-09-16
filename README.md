@@ -1,8 +1,8 @@
 # Programming Foundations: Design Patterns
 
-Fundamentals properties of Obeject-Oriented Design
+Fundamentals properties of Object-Oriented Design
 
-* Inherintece
+* Inheritance
 * Polymorphism
 * Abstraction
 * Encapsulation
@@ -11,7 +11,7 @@ Design Patterns provide paths to solutions for some of the most common object-or
 
 ## Benefits
 
-* Not reivent the wheel
+* Not reinvent the wheel
 * Building resilient code
 * Preparing for future additions
 
@@ -22,8 +22,8 @@ Design Patterns provide paths to solutions for some of the most common object-or
 > **Encapsulate your varies**  
 > Identify the aspects of your application that vary and separate them from what stays the same.
 >
-> * if some aspect of your code is changing , that's a sign you should pull it out and separete it
-> * By separeting out the parts of your code that change, you can extend or alter them without affecting the rest of your code
+> * if some aspect of your code is changing , that's a sign you should pull it out and separate it
+> * By separating out the parts of your code that change, you can extend or alter them without affecting the rest of your code
 > * This principle is fundamental to almost every design pattern
 
 | **Principle**           | **Pattern**           |
@@ -47,7 +47,7 @@ Design Patterns provide paths to solutions for some of the most common object-or
 
 > **The Strategy Pattern**  
 > This Pattern defines a family of algorithms, encapsulate each one, and makes them interchangeable.
-> This lets the algorithm vary independently from clients that use it.
+> This lets the algorithm vary independently clients that use it.
 
 #### HAS-A Is Better Than IS-A
 
@@ -55,7 +55,7 @@ Design Patterns provide paths to solutions for some of the most common object-or
   * Each duck has a FlyBehavior and a QuackBehavior
 
 * Instead of inheriting behavior, we're composing it
-  * A duck is composed with a fly behavior and a quack behavior
+* A duck is compose with a fly behavior and a quack behavior
 
 > **Favor Composition over Inheritance**  
 > Classes should achieve code reuse using composition rather than inheritance from a superclass.
@@ -78,7 +78,7 @@ The Adapter class handles the work of translating the request to the new Vendor 
 > * The adapter is composed with the adaptee
 > * The adapter delegates calls to the adaptee, and returns any needed value
 
-### The Observe Pattern
+### The Observer Pattern
 
 > **The Observer Pattern**  
 > This Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its
@@ -86,6 +86,13 @@ The Adapter class handles the work of translating the request to the new Vendor 
 
 ![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/observe_pattern.png "Observe Pattern")
 
+There are threads about the Observer Pattern
+Links and a paper about it:
+* [Why should the observer pattern be deprecated?
+](https://stackoverflow.com/questions/11619680/why-should-the-observer-pattern-be-deprecated/11632412#11632412)
+* [Deprecating the Observer Pattern](https://github.com/morvanabonin/design_patterns/blob/master/img/DeprecatingObserversTR2010.pdf)
+
+And Java in its 9 version, deprecated java.util.Observer.
 
 #### Links for Study
 
