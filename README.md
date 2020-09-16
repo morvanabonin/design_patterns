@@ -31,6 +31,12 @@ Design Patterns provide paths to solutions for some of the most common object-or
 | Encapsulate what varies | The Strategy Pattern  |
 |                         | The Iterator Pattern  |
 |                         | The Factory Pattern   |
+| Loose Coopling          | The Observe Pattern   |
+
+> **Loose Coupling**  
+> Strive for loosely coupled designs between objects that interact.
+>
+> Objects are loosely coupled when they interact with one another, which makes them coupled, but they don't know a lot about each other, which makes them loosely coupled.
 
 ### The Strategy Pattern
 
@@ -73,9 +79,6 @@ The Adapter class handles the work of translating the request to the new Vendor 
 > * The adapter delegates calls to the adaptee, and returns any needed value
 
 ### The Observe Pattern
-
-> **Loose Coupling**  
-> Strive for loosely coupled designs between objects that interact.
 
 > **The Observer Pattern**  
 > This Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its
