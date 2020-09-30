@@ -86,6 +86,12 @@ The Adapter class handles the work of translating the request to the new Vendor 
 
 ![alt text](https://github.com/morvanabonin/design_patterns/blob/master/img/observe_pattern.png "Observe Pattern")
 
+> **Loose Coupling**
+> Subjects and observers are loosely coupled
+> They interact, but have little knowledge of each other
+> Subject knows only that the observer implements a specific interface
+> Subject doesn't know need to know the concrete class of the obe
+
 There are threads about the Observer Pattern
 Links and a paper about it:
 * [Why should the observer pattern be deprecated?
